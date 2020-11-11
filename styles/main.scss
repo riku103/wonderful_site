@@ -1,0 +1,59 @@
+.form-box {
+  background-color: white;
+
+  border: 4px solid;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+
+  width: 690px;
+  margin: 0 auto;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.Product_name {
+
+  h2 {
+    font-size: 38px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0;
+  }
+}
+
+.Introduction {
+  font-size: 22px;
+  line-height: 160%;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  strong {
+    background:linear-gradient(transparent 60%, #ff6 60%)
+  }
+}
+
+.form-btn {
+  background-color: rgb(23, 176, 223);
+  width: 560px;
+  height: 60px;
+
+  p {
+    font-size: 16px;
+    line-height: 60px;
+    color: white;
+  }
+}
+
+.warning {
+  font-size: 13px;
+  margin: 33px 0;
+}
