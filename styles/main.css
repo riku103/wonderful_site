@@ -13,4 +13,31 @@
 .main-container {
   text-align: center;
 }
+
+.Product_name h2 {
+  font-size: 38px;
+  margin-bottom: 0;
+}
+
+.Product_name p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.Introduction {
+  font-size: 22px;
+}
+
+.Introduction p {
+  margin-bottom: 0;
+}
+
+.form-btn p {
+  font-size: 16px;
+  color: white;
+}
+
+.warning {
+  font-size: 13px;
+}
 /*# sourceMappingURL=main.css.map */
