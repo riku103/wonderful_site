@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-.Product_name h2 {
+.Product_name h1 {
   font-size: 38px;
   margin-bottom: 0;
 }
@@ -35,24 +35,37 @@
   margin-bottom: 0;
 }
 
-.Introduction strong {
+.Introduction .yellow_line {
+  font-weight: bold;
+  font-size: 24px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #ff6));
   background: linear-gradient(transparent 60%, #ff6 60%);
 }
 
 .form-btn {
+  display: block;
+  border-radius: 4px;
+  color: white;
   background-color: #17b0df;
   width: 560px;
   height: 60px;
-}
-
-.form-btn p {
   font-size: 16px;
   line-height: 60px;
-  color: white;
+  margin-top: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.form-btn:hover {
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
 }
 
 .warning {
+  display: block;
   font-size: 13px;
   margin: 33px 0;
 }
