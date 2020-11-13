@@ -98,4 +98,21 @@ a {
 .img-item p {
   margin: 0;
 }
+
+.Introduction-text {
+  width: 800px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  margin-left: 150px;
+}
+
+.Introduction-text h2 {
+  text-align: center;
+  border-bottom: 1px solid;
+  margin: 0;
+}
+
+.Introduction-text p {
+  margin: 0;
+}
 /*# sourceMappingURL=main.css.map */
