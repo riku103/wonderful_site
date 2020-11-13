@@ -90,4 +90,12 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.img-item {
+  text-align: center;
+}
+
+.img-item p {
+  margin: 0;
+}
 /*# sourceMappingURL=main.css.map */
