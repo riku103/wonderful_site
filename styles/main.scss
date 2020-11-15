@@ -22,11 +22,19 @@ nav {
     list-style: none;
     display: inline-block;
     padding: 15px;
-    color: #000000;
   }
 
   a {
     text-decoration: none;
+    color: #000000;
+  }
+}
+
+.header-right {
+  background-color: #F5B92F;
+
+  a {
+    color: white;
   }
 }
 

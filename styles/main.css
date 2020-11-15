@@ -26,11 +26,19 @@ nav li {
   list-style: none;
   display: inline-block;
   padding: 15px;
-  color: #000000;
 }
 
 nav a {
   text-decoration: none;
+  color: #000000;
+}
+
+.header-right {
+  background-color: #F5B92F;
+}
+
+.header-right a {
+  color: white;
 }
 
 .top-wrapper {
