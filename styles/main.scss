@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+.main-contentes {
+  background-image: url(shahadat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header {
   width: 1100px;
   height: 90px;
@@ -140,13 +146,18 @@ a {
   }
 }
 
+.main-text {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
 .Introduction-text {
-  // color: white;
+  color: white;
 
   width: 800px;
-  margin-top: 55px;
-  margin-bottom: 55px;
-  margin-left: 150px;
+  padding-top: 55px;
+  padding-bottom: 55px;
 
   h2 {
     text-align: center;
