@@ -136,6 +136,7 @@ a {
 .Introduction-image {
   width: 800px;
   margin: 0 150px;
+  margin-bottom: -80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,11 +153,13 @@ a {
   text-align: center;
 }
 
-.img-item p {
+.img-item span {
   margin: 0;
+  color: white;
 }
 
 .main-text {
+  padding-top: 55px;
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,6 +180,7 @@ a {
   text-align: center;
   border-bottom: 1px solid;
   margin: 0;
+  margin-top: 15px;
 }
 
 .Introduction-text p {

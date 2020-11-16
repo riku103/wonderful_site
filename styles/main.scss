@@ -133,6 +133,7 @@ a {
 .Introduction-image {
   width: 800px;
   margin: 0 150px;
+  margin-bottom: -80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -141,12 +142,14 @@ a {
 .img-item {
   text-align:center;
 
-  p {
+  span {
     margin: 0;
+    color: white;
   }
 }
 
 .main-text {
+  padding-top: 55px;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -163,6 +166,7 @@ a {
     text-align: center;
     border-bottom: 1px solid;
     margin: 0;
+    margin-top: 15px;
   }
 
   p {
