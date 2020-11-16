@@ -8,10 +8,14 @@ body {
   background-size: cover;
 }
 
+.header-contentes {
+  background-color: white;
+  opacity: 0.7;
+}
+
 header {
   width: 1100px;
   height: 90px;
-  background-color: red;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
