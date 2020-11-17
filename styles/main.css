@@ -1,6 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-contentes {
+  margin-top: -45px;
+  padding-top: 130px;
+  background-image: url(shahadat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-contentes {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  opacity: 0.7;
+}
+
+header {
+  width: 1100px;
+  height: 90px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-right {
+  background-color: #F5B92F;
+  padding: 14px 20px 12px;
+}
+
+.header-right a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.arrow {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.arrow::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  border: 0px;
+  border-top: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  margin-top: -15px;
+}
+
+.header-right:hover {
+  background-color: gray;
+  opacity: 0.7;
+}
+
 .top-wrapper {
   width: 1100px;
   margin: 0 auto;
+  margin-top: 45px;
 }
 
 .form-box {
@@ -62,7 +157,7 @@
   transition: all 0.3s ease 0s;
 }
 
-.form-btn:hover {
+a:hover {
   opacity: 0.7;
 }
 
@@ -79,6 +174,7 @@ a {
 .Introduction-image {
   width: 800px;
   margin: 0 150px;
+  margin-bottom: -80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,21 +191,34 @@ a {
   text-align: center;
 }
 
-.img-item p {
+.img-item span {
   margin: 0;
+  color: white;
+}
+
+.main-text {
+  padding-top: 55px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Introduction-text {
+  color: white;
   width: 800px;
-  margin-top: 55px;
-  margin-bottom: 55px;
-  margin-left: 150px;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 
 .Introduction-text h2 {
   text-align: center;
   border-bottom: 1px solid;
   margin: 0;
+  margin-top: 15px;
 }
 
 .Introduction-text p {
