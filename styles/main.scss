@@ -13,7 +13,6 @@ body {
   background-size: cover;
 }
 
-@media screen and (min-width: 1200px) {
   .header-contentes {
     z-index: 100;
     position: fixed;
@@ -91,9 +90,7 @@ body {
     background-color: gray;
     opacity: 0.7;
   }
-}
 
-@media screen and (min-width: 1000px) {
   .top-wrapper {
     width: 1100px;
     margin: 0 auto;
@@ -190,7 +187,11 @@ body {
       color: white;
     }
   }
-}
+
+  .Introduction-image {
+    display: flex;
+    flex-direction: column;
+  }
 
   .main-text {
     padding-top: 55px;
