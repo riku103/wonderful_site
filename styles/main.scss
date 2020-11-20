@@ -1,5 +1,12 @@
 @media screen and (max-width: 960px) {
   // ブレイクポイント以下の処理
+  .pc-nav {
+    display: none;
+  }
+
+  .header-right {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -21,208 +28,203 @@ body {
   background-size: cover;
 }
 
-  .header-contentes {
-    z-index: 100;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90px;
-    background-color: white;
-    opacity: 0.7;
+.header-contentes {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  opacity: 0.7;
+}
+
+
+header {
+  width: 1100px;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+
+  ul {
+    padding: 0;
   }
 
-
-  header {
-    width: 1100px;
-    height: 90px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  nav {
-
-    ul {
-      padding: 0;
-    }
-
-    li {
-      list-style: none;
-      display: inline-block;
-      padding: 15px;
-      font-weight: bold;
-    }
-
-    a {
-      text-decoration: none;
-      color: #000000;
-    }
-  }
-
-  .header-right {
-    background-color: #F5B92F;
-    padding: 14px 20px 12px;
-
-    a {
-      text-decoration: none;
-      font-weight: bold;
-      color: rgb(255, 255,255);
-    }
-  }
-
-  .arrow {
-    position: relative;
+  li {
+    list-style: none;
     display: inline-block;
-    padding-left: 20px;
-  }
-
-  .arrow::before{
-    content: '';
-    width: 15px;
-    height: 15px;
-    border: 0px;
-    border-top: solid 2px #ffffff;
-    border-right: solid 2px #ffffff;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    margin-top: -15px;
-  }
-
-  .header-right:hover {
-    background-color: gray;
-    opacity: 0.7;
-  }
-
-  .top-wrapper {
-    width: 1100px;
-    margin: 0 auto;
-    margin-top: 45px;
-  }
-
-  .form-box {
-    background-color: white;
-
-    border: 4px solid;
-    border-radius: 20px;
-
-    display: flex;
-    justify-content: center;
-
-    width: 690px;
-    margin: 0 auto;
-    margin-bottom: 32px;
-  }
-
-  .main-container {
-    text-align: center;
-  }
-
-  .Product_name {
-
-    h1 {
-      font-size: 38px;
-      margin-bottom: 0;
-    }
-
-    p {
-      font-size: 16px;
-      margin: 0;
-    }
-  }
-
-  .Introduction {
-    font-size: 22px;
-    line-height: 160%;
-
-    p {
-      margin-bottom: 0;
-    }
-
-    .yellow_line {
-      font-weight: bold;
-      font-size: 24px;
-      background:linear-gradient(transparent 60%, #ff6 60%)
-    }
-  }
-
-  .form-btn {
-    display: block;
-    border-radius: 4px;
-    color: white;
-    background-color: rgb(23, 176, 223);
-    width: 560px;
-    height: 60px;
-    font-size: 16px;
-    line-height: 60px;
-    margin-top: 20px;
-    transition: all 0.3s ease 0s;
-  }
-
-  a:hover {
-    opacity: 0.7;
+    padding: 15px;
+    font-weight: bold;
   }
 
   a {
     text-decoration: none;
+    color: #000000;
   }
+}
 
-  .warning {
-    display: block;
-    font-size: 13px;
-    margin: 33px 0;
+.header-right {
+  background-color: #F5B92F;
+  padding: 14px 20px 12px;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255,255);
   }
+}
 
-  .Introduction-image {
-    width: 800px;
-    margin: 0 150px;
-    margin-bottom: -80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+.arrow {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+}
 
-  .img-item {
-    text-align:center;
+.arrow::before{
+  content: '';
+  width: 15px;
+  height: 15px;
+  border: 0px;
+  border-top: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  margin-top: -15px;
+}
 
-    span {
-      margin: 0;
-      color: white;
-    }
-  }
+.header-right:hover {
+  background-color: gray;
+  opacity: 0.7;
+}
 
-  .Introduction-image {
-    display: flex;
-    flex-direction: column;
-  }
+.top-wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
 
-  .main-text {
-    padding-top: 55px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-  }
+.form-box {
+  background-color: white;
 
-  .Introduction-text {
-    color: white;
+  border: 4px solid;
+  border-radius: 20px;
 
-    width: 800px;
-    padding-top: 55px;
-    padding-bottom: 55px;
+  display: flex;
+  justify-content: center;
 
-    h2 {
-    text-align: center;
-    border-bottom: 1px solid;
-    margin: 0;
-    margin-top: 15px;
+  width: 690px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.Product_name {
+
+  h1 {
+    font-size: 38px;
+    margin-bottom: 0;
   }
 
   p {
+    font-size: 16px;
     margin: 0;
   }
+}
+
+.Introduction {
+  font-size: 22px;
+  line-height: 160%;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .yellow_line {
+    font-weight: bold;
+    font-size: 24px;
+    background:linear-gradient(transparent 60%, #ff6 60%)
+  }
+}
+
+.form-btn {
+  display: block;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(23, 176, 223);
+  width: 560px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 60px;
+  margin-top: 20px;
+  transition: all 0.3s ease 0s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+.warning {
+  display: block;
+  font-size: 13px;
+  margin: 33px 0;
+}
+
+.Introduction-image {
+  width: 800px;
+  margin: 0 150px;
+  margin-bottom: -80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-item {
+  text-align:center;
+
+  span {
+    margin: 0;
+    color: white;
+  }
+}
+
+.main-text {
+  padding-top: 55px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.Introduction-text {
+  color: white;
+
+  width: 800px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+
+  h2 {
+  text-align: center;
+  border-bottom: 1px solid;
+  margin: 0;
+  margin-top: 15px;
+}
+
+p {
+  margin: 0;
+}
 }
