@@ -11,6 +11,9 @@
 
 @media screen and (min-width: 960px) {
   // ブレイクポイント以上の処理
+  .iphone-nav {
+    display: none;
+  }
 }
 
 body {
@@ -47,6 +50,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+
+.iphone-nav {
+  position: absolute;
+  right: 18px;
+  width: 26px;
+  height: auto;
+  padding-top: 1px;
+  box-sizing: border-box;
+  z-index: 10000;
+  transition: all 0.2s;
+  cursor: pointer;
+
+  span {
+    display: block;
+    width: 100%;
+    margin: 0 auto 6px;
+    height: 3px;
+    background: #000;
+  }
 }
 
 nav {
