@@ -1,9 +1,44 @@
 @media screen and (max-width: 960px) {
-  .pc-nav {
+  .main-contentes .pc-nav {
     display: none;
   }
-  .header-right {
+  .main-contentes .header-right {
     display: none;
+  }
+  .main-contentes .top-wrapper {
+    margin-top: 15px;
+    width: 90%;
+  }
+  .main-contentes .main-container {
+    width: 100%;
+  }
+  .main-contentes .main-container .Product_name h1 {
+    font-size: 6vmax;
+    margin-top: 25px;
+  }
+  .main-contentes .Introduction {
+    font-size: 4.5vmax;
+    line-height: 10vh;
+  }
+  .main-contentes .Introduction p {
+    margin-top: 10px;
+  }
+  .main-contentes .Introduction span {
+    font-size: 4.5vmax;
+  }
+  .main-contentes .form-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-contentes .form-link .form-btn {
+    font-size: 5vmax;
+    width: 90%;
+    height: 11vmax;
+    vertical-align: middle;
   }
 }
 
@@ -13,7 +48,12 @@
   }
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
+  font-size: 1.6rem;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -161,7 +201,6 @@ nav a {
 }
 
 .Product_name p {
-  font-size: 16px;
   margin: 0;
 }
 

@@ -1,11 +1,52 @@
 @media screen and (max-width: 960px) {
   // ブレイクポイント以下の処理
-  .pc-nav {
-    display: none;
-  }
+  .main-contentes {
+    .pc-nav {
+      display: none;
+    }
 
-  .header-right {
-    display: none;
+    .header-right {
+      display: none;
+    }
+
+    .top-wrapper {
+      margin-top: 15px;
+      width: 90%;
+    }
+
+    .main-container {
+      width: 100%;
+
+      .Product_name h1 {
+        font-size: 6vmax;
+        margin-top: 25px;
+      }
+    }
+
+    .Introduction {
+      font-size: 4.5vmax;
+      line-height: 10vh;
+
+      p {
+        margin-top: 10px;
+      }
+
+      span {
+        font-size: 4.5vmax;
+      }
+    }
+
+    .form-link {
+      display: flex;
+      justify-content: center;
+
+      .form-btn {
+        font-size: 5vmax;
+        width: 90%;
+        height: 11vmax;
+        vertical-align: middle;
+      }
+    }
   }
 }
 
@@ -16,7 +57,12 @@
   }
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
+  font-size: 1.6rem;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -161,7 +207,6 @@ nav {
   }
 
   p {
-    font-size: 16px;
     margin: 0;
   }
 }
