@@ -26,6 +26,20 @@
   .main-contentes .Introduction span {
     font-size: 4.5vmax;
   }
+  .main-contentes .form-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-contentes .form-link .form-btn {
+    font-size: 5vmax;
+    width: 90%;
+    height: 11vmax;
+    vertical-align: middle;
+  }
 }
 
 @media screen and (min-width: 960px) {

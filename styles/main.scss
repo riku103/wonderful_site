@@ -35,6 +35,18 @@
         font-size: 4.5vmax;
       }
     }
+
+    .form-link {
+      display: flex;
+      justify-content: center;
+
+      .form-btn {
+        font-size: 5vmax;
+        width: 90%;
+        height: 11vmax;
+        vertical-align: middle;
+      }
+    }
   }
 }
 
