@@ -40,6 +40,12 @@
     height: 11vmax;
     vertical-align: middle;
   }
+  .main-contentes .Introduction-image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 960px) {
