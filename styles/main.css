@@ -13,18 +13,17 @@
     width: 100%;
   }
   .main-contentes .main-container .Product_name h1 {
-    font-size: 6vmax;
+    font-size: 7vw;
     margin-top: 25px;
   }
   .main-contentes .Introduction {
-    font-size: 4.5vmax;
-    line-height: 10vh;
+    font-size: 4.5vw;
   }
   .main-contentes .Introduction p {
     margin-top: 10px;
   }
   .main-contentes .Introduction span {
-    font-size: 4.5vmax;
+    font-size: 5vw;
   }
   .main-contentes .form-link {
     display: -webkit-box;
@@ -35,10 +34,8 @@
             justify-content: center;
   }
   .main-contentes .form-link .form-btn {
-    font-size: 5vmax;
+    font-size: 5vw;
     width: 90%;
-    height: 11vmax;
-    vertical-align: middle;
   }
   .main-contentes .Introduction-image {
     -webkit-box-orient: vertical;
@@ -50,7 +47,7 @@
             justify-content: center;
     margin-left: 0;
     margin-right: 0;
-    font-size: 4vmax;
+    font-size: 3vmax;
   }
 }
 
