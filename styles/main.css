@@ -56,6 +56,9 @@
   #text {
     padding-top: 1050px;
   }
+  #text p {
+    font-size: 4.3vw;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -303,8 +306,7 @@ a {
 .Introduction-text {
   color: white;
   width: 800px;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding: 55px 15px;
 }
 
 .Introduction-text h2 {
@@ -315,6 +317,7 @@ a {
 }
 
 .Introduction-text p {
+  padding-top: 10px;
   margin: 0;
 }
 /*# sourceMappingURL=main.css.map */

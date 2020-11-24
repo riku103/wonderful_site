@@ -61,6 +61,10 @@
 
   #text {
     padding-top: 1050px;
+
+    p {
+      font-size: 4.3vw;
+    }
   }
 }
 
@@ -296,8 +300,7 @@ a {
   color: white;
 
   width: 800px;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding: 55px 15px;
 
   h2 {
   text-align: center;
@@ -307,6 +310,7 @@ a {
 }
 
 p {
+  padding-top: 10px;
   margin: 0;
 }
 }
