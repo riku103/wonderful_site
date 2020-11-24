@@ -14,6 +14,10 @@
       width: 90%;
     }
 
+    .form-box {
+      margin-bottom: 120px;
+    }
+
     .main-container {
       width: 100%;
 
@@ -27,7 +31,7 @@
       font-size: 4.5vw;
 
       p {
-        margin-top: 10px;
+        margin-top: 20px;
       }
 
       span {
@@ -50,8 +54,13 @@
       justify-content: center;
       margin-left: 0;
       margin-right: 0;
+      margin-bottom: -1050px;
       font-size: 3vmax;
     }
+  }
+
+  #text {
+    padding-top: 1050px;
   }
 }
 
